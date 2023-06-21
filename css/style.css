@@ -1,0 +1,47 @@
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+}
+
+.main {
+    font-family: Kumbh Sans;
+    background-color: white;
+    border-radius: 15px;
+    margin: 40px 20px 20px 20px;
+    padding: 15px;
+}
+
+.graphic-site {
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    height: 60%; 
+    width: 60%; 
+    left: 0; 
+    top: -40%;
+}
+
+.faq-heading {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.question {
+    padding: 10px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
